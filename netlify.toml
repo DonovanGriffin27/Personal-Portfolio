@@ -1,5 +1,0 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-to = "/PortfolioWebsite.html"
-status = 200
