@@ -153,24 +153,22 @@
       }
     }
     
-/* PortfolioMedia.css */
 
 @media screen and (max-width: 600px) {
-  /* Ensure about-pic is displayed correctly */
   .about-pic {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 1rem; /* Optional margin for spacing */
+    margin: 0 auto 1rem; 
+    }
   }
 
-  /* Adjust layout for smaller screens */
   #about {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 2rem 1rem; /* Adjust padding as needed */
+    padding: 2rem 1rem; 
   }
 
   .section-container {
@@ -178,19 +176,18 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 2rem; /* Adjust gap between sections */
+    gap: 2rem; 
   }
 
   .about-details-container {
     width: 100%;
-    max-width: 600px; /* Adjust max-width as needed */
-    margin-top: 2rem; /* Optional margin */
-  }
+    max-width: 600px; 
+    margin-top: 2rem; 
 
   .text-container {
-    font-size: 24px; /* Increase font size to 24px */
-    line-height: 1.6; /* Adjust line height for readability */
+    font-size: 16px; 
+    line-height: 1.6; 
     text-align: justify;
-    margin-bottom: 1rem; /* Optional margin */
+    margin-bottom: 1rem;
   }
 }
