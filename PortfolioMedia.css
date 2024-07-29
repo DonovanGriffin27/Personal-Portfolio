@@ -142,7 +142,7 @@
       text-align: justify;
       margin-bottom: 1rem; 
     }
-    .experience-details-container{
+    .experience-details-container, .project-btn{
       height: fit-content;
     }
   }
