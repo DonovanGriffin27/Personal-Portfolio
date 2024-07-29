@@ -552,7 +552,8 @@ footer p{
 }
 
 .project-btn{
-    width: 150px;
+    width: 7rem;
+    height: 1rem;
 }
 
 .article-containers{
@@ -564,4 +565,10 @@ footer p{
 }
 .about-details-container{
     display: auto;
+}
+
+.project-img {
+    height: 4rem; 
+    width: 4rem; 
+    object-fit: cover; 
 }
