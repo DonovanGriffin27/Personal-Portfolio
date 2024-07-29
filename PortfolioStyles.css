@@ -509,3 +509,49 @@ footer{
 footer p{
     text-align: center;
 }
+
+/* Center and space content */
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text content */
+    padding: 50px 0; /* Example padding adjustment */
+}
+
+.experience-details-container {
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Adjust gap between containers */
+    margin-top: 20px; /* Example margin adjustment */
+}
+
+.details-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items vertically */
+    text-align: center; /* Center text content */
+    background-color: #f9f9f9; /* Example background color */
+    padding: 20px; /* Example padding adjustment */
+    border-radius: 20px; /* Example border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Example box shadow */
+    width: 300px; /* Example fixed width */
+}
+
+.details-containers .project-img {
+    height: 170px; /* Example height adjustment */
+    width: 170px; /* Example width adjustment */
+}
+
+.project-title {
+    margin-top: 10px; /* Example margin adjustment */
+}
+
+.btn-container {
+    margin-top: 15px; /* Example margin adjustment */
+}
+
+.project-btn{
+    width: 150px;
+}
