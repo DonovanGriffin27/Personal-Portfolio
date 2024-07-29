@@ -558,3 +558,10 @@ footer p{
 .article-containers{
     height: 160px
 }
+
+.e-icon{
+    height: 8rem;
+}
+.about-details-container{
+    display: auto;
+}
