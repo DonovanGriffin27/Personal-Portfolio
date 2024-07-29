@@ -6,6 +6,12 @@
       .about-containers{
           flex-wrap: wrap;
       }
+      #about .section-container {
+        display: flex;
+        justify-content: space-between; 
+        align-items: flex-start; 
+    }
+    
   }
   
   @media screen and (max-width: 1200px) {
