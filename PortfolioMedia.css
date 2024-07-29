@@ -97,11 +97,17 @@
     font-size: 18px; 
     padding: 20px; 
   }
+  .project-btn{
+    height: fit-content;
+  }
 }
 
 @media only screen and (min-width: 428px) {
   body {
     font-size: 18px; 
+  }
+  .project-btn{
+    height: fit-content;
   }
 }
 
