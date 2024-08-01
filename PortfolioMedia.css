@@ -99,15 +99,13 @@
   }
   .project-btn{
     height: fit-content;
+    display: auto;
   }
 }
 
 @media only screen and (min-width: 428px) {
   body {
     font-size: 18px; 
-  }
-  .project-btn{
-    height: fit-content;
   }
 }
 
