@@ -7,6 +7,18 @@
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 1440px) {
+#profile{
+    height: 83vh;
+    margin-bottom: 6rem;
+    }
+    .about-containers{
+        flex-wrap: wrap;
+    }
+    .details-containers{
+      height: 83vh;
+    }
+}
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
@@ -34,9 +46,6 @@
   }
   .about-containers{
     margin-top: 0;
-  }
-  .details-containers{
-    height: 10000px;
   }
 }
 
