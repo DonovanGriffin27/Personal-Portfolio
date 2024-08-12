@@ -15,9 +15,6 @@
     .about-containers{
         flex-wrap: wrap;
     }
-    .details-containers{
-      height: 83vh;
-    }
 }
 
 @media screen and (max-width: 1200px) {
